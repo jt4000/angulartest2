@@ -11,6 +11,7 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
 
 @NgModule({
   declarations: [AppComponent, AlertDialogComponent],
+  entryComponents: [AlertDialogComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
